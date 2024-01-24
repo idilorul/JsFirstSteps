@@ -85,6 +85,8 @@ console.log(` ${mertName} ${selinSurname} is ${mertAge} years old. ${mertName} $
 // * Her sınıfın aritmetik ortalamlarını hesaplayalım 
 // * Çan eğrisini tespit ettikten sonra kaç ogrencinin sınavı geçip geçmediğini yazalım
 
+/*
+
 const numberOne = (50);
 const numberTwo = (65);
 const numberThree = (45);
@@ -119,8 +121,208 @@ console.log(`${classOneFNumber} students in first class couldn't pass the bell c
 console.log(`${classOneFNumber} students in second class couldn't pass the bell curve.`);
 console.log(`${classThreeFNumber} students in third class couldn't pass the bell curve.`);
 
+*/
+
+//const js = 'can';
+
+//if (js === 'can') alert ('Js is fun');
+
+/*
+
+const age = 12;
+
+if (age >= 18) {
+    console.log('He can take drive licance');
+} else {
+    const yearsLeft = 18 - age; 
+    console.log(`He is too young he have ${yearsLeft} years`);
+}
+
+
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+const massCan = 80;
+const heightCan = 1.80;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2 ;
+const BMICan = massCan / heightCan ** 2;
+
+console.log(BMIMark, BMIJohn, BMICan);
+
+if (BMIMark > BMIJohn > BMICan) {
+    console.log('BMI Mark higher to group');
+} if(BMIJohn > BMICan > BMIMark) {
+    console.log('BMI John higher to BMI Mark');
+} 
+
+John Age = 18
+Jonas = 14
+Can = 20 
+Idil = 19
 
 
 
 
+const johnAge = (18);
+const yearsLeftJohn = (18 - johnAge);
 
+if ( johnAge >= 18) {
+    console.log(`He can take drive licance`);
+} else {
+    console.log(`He cannot take drive licance. He have ${yearsLeftJohn} years.`);
+}
+
+const jonasAge = (14);
+
+if (jonasAge >= 18) {
+    console.log(`He can take drive licance`);
+} else {
+    const yearsLeftJonas = (18- jonasAge);
+    console.log(`He cannot take drive licance. He have ${yearsLeftJonas} years.`);
+}
+
+const canAge = (28);
+
+if ( canAge >= 18) {
+    console.log(`He can take drive licance`);
+} else {
+    const yearsLeftCan = (18 - canAge);
+    console.log(`He cannot take drive licance. He have ${yearsLeftCan} years.`);
+}
+
+const idilAge = (19);
+
+if (idilAge >= 18) {
+    console.log(`She can take drive licance`);
+} else {
+    const yearsLeftİdil = (18 - idilAge);
+    console.log(`She cannot take drive licance. She have ${yearsLeftİdil} years.`);
+}
+
+
+
+// falsy values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Can'));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+
+
+
+const hasDriverLicense = true;
+const hasGoodVision = false;
+const canArda = false;
+
+console.log(hasDriverLicense)
+console.log(hasGoodVision)
+
+console.log(hasGoodVision && hasDriverLicense && canArda);
+console.log(hasGoodVision || hasDriverLicense || canArda);
+
+if (hasDriverLicense || hasGoodVision || canArda) {
+    console.log('Random')
+} else if (hasGoodVision && hasDriverLicense && canArda) {
+    console.log('Random 2')
+} else if (hasDriverLicense || hasGoodVision) {
+    console.log('Random 3')
+}
+
+Challenge 2 (VERY HARD)
+
+Maç 1 
+Mavi Takım [4,2,5,3,6,8]
+Kırmızı Takım [5,4,1,6,4,5]
+
+Maç 2 
+Mavi Takım [6,9,3,6,7,3]
+Kırmızı Takım [7,5,7,8,3,6]
+
+Maç 3 
+Mavi Takım [6,5,3,5,2,6]
+Kırmızı Takım [5,3,8,7,9,4]
+
+İki takımın mücadele ettiği bir müsabakada toplamda 3 maç oynanmıştır. 
+Maçlarda alınan puanlar yukarıda verilmiştir.
+Her maçın kazananı o maçın alınan puanlarının ortalamalarına göre hesaplanacaktır. 
+Toplamda her maç 6 şar adet atış yapılmıştır. 
+
+Sizden beklenenler
+*Her maç için takımların ayrı ayrı ortalamlarını bulunuz. 
+*Her maçın kazananlarını ${``} şeklinde gösteriniz. 
+*Tek bir if else yazarak mücadeleyi (3 maçın ortalaması) kimin kazandığını belirtiniz. 
+-Koşul 1: Mavi takım kazanır 
+-Koşul 2: Kırmızı takım kazanır
+-Koşul 3: Beraberlik durumunda maç tekrarlanır 
+
+İpucu: === ve == dikkat ediniz
+
+Good Luck :) 
+
+*/
+
+const teamPoint = (6);
+const blueTeamName = ('Blue Team');
+const redTeamName = ('Red Team');
+
+const oneBlueTeamTotal = ( 4 + 2 + 5 + 3 + 6 + 8);
+const oneBlueTeamArMe = ( oneBlueTeamTotal / teamPoint);
+
+const oneRedTeamTotal = ( 5 + 4 + 1 + 6 + 4 + 5);
+const oneRedTeamArMe = ( oneRedTeamTotal / teamPoint);
+
+console.log(oneBlueTeamArMe > oneRedTeamArMe );
+
+
+console.log(`In the first match, the average of te blue teams is ${oneBlueTeamArMe} points.`);
+console.log(`In the first match, the average of te red teams is ${oneRedTeamArMe} points.`);
+console.log(`The winner in the first match is the ${blueTeamName}. `);
+
+
+
+
+const twoBlueTeamTotal = ( 6 + 9 + 3 + 6 + 7 + 3);
+const twoBlueTeamArMe = ( twoBlueTeamTotal / teamPoint);
+
+const twoRedTeamTotal = ( 7 + 5 + 7 + 8 + 3 + 6);
+const twoRedTeamArMe = ( twoRedTeamTotal / teamPoint);
+
+console.log(twoRedTeamArMe > twoBlueTeamArMe );
+
+console.log(`In the second match, the average of te blue teams is ${twoBlueTeamArMe} points.`);
+console.log(`In the second match, the average of te red teams is ${twoRedTeamArMe} points.`);
+console.log(`The winner in the second match is the ${redTeamName}. `);
+
+
+
+const threeBlueTeamTotal = ( 6 + 5 + 3 + 5 + 2 + 6);
+const threeBlueTeamArMe = ( threeBlueTeamTotal / teamPoint);
+
+const threeRedTeamTotal = ( 5 + 3 + 8 + 7 + 9 + 4);
+const threeRedTeamArMe = ( threeRedTeamTotal / teamPoint);
+
+console.log(threeRedTeamArMe > threeBlueTeamArMe );
+
+console.log(`In the third match, the average of te blue teams is ${threeBlueTeamArMe} points.`);
+console.log(`In the third match, the average of te red teams is ${threeRedTeamArMe} points.`);
+console.log(`The winner in the third match is the ${redTeamName}. `);
+
+const allMatchessBlueTotal = (oneBlueTeamArMe + twoBlueTeamArMe + threeBlueTeamArMe);
+const allMatchessBlueArMe = (allMatchessBlueTotal / 3);
+const allMatchessRedTotal = (oneRedTeamArMe + twoRedTeamArMe + threeRedTeamArMe);
+const allMatchessRedArMe = (allMatchessRedTotal / 3);
+
+console.log(allMatchessRedArMe > allMatchessBlueArMe);
+
+if (allMatchessRedArMe > allMatchessBlueArMe ) {
+    console.log(`At the end of three matches, the ${redTeamName} is the winner.`)
+} else if (allMatchessBlueArMe > allMatchessRedArMe ) {
+    console.log(`At the end of three matches, the ${blueTeamName} is the winner.`)
+} else if ( allMatchessBlueArMe === allMatchessRedArMe ) {
+    console.log(`The match ended in a draw.`)
+}
