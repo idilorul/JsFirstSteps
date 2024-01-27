@@ -1,3 +1,5 @@
+'use strict'
+
 //const can = ('Can ARda');
 
 //console.log(can)
@@ -264,7 +266,7 @@ Sizden beklenenler
 
 Good Luck :) 
 
-*/
+
 
 const teamPoint = (6);
 const blueTeamName = ('Blue Team');
@@ -326,3 +328,224 @@ if (allMatchessRedArMe > allMatchessBlueArMe ) {
 } else if ( allMatchessBlueArMe === allMatchessRedArMe ) {
     console.log(`The match ended in a draw.`)
 }
+
+*/
+
+/*
+Matematik sınav sonuçları: 
+Sınıf 1 [56,45,78,41,52,12,54,12,52,36,12,12,45,78,45,89,65,100,25,48]
+Sınıf 2 [45,10,25,78,75,10,45,23,56,78,41,56,78,52,14,0,12,45,78]
+Sınıf 3 [40,45,40,12,30,70,50,65,60,78,90,45,85,76,45,70,40,40,50,65]
+
+
+
+
+const studentpoint = [56,45,78,41,52,12,54,12,52,36,12,12,45,78,45,89,65,100,25,48];
+
+console.log(studentpoint > 50);
+
+if (studentpoint >= 50) {
+    console.log(`The student passed the exam.`)
+} else {
+    console.log(`The student didn't pass the exam.`)
+}
+
+console.log('Can')
+
+
+*/ 
+
+let day = 'sadf';
+
+/*
+
+switch (day) {
+    case 'monday': // day === monday
+    console.log('Toplantiya gidilecek');
+    console.log('Kresten cocuk alinacak');
+    break;
+
+    case 'tuesday':
+    console.log('Arkadas bulusmasi');
+    break;
+
+    case 'wednesday':
+    case 'thursday':
+    console.log('Spora gidis');
+    break;
+
+    case 'friday':
+    console.log('Dizi izleme');
+    break;
+
+    case 'saturday':
+    case 'sunday':
+    console.log('Hafta sonu');
+    break;
+    default:
+        console.log('Gecerli gün girilmedi');
+}
+
+
+if (day === 'monday') {
+    console.log('Toplantiya gidilecek');
+    console.log('Kresten cocuk alinacak');
+} else if (day === 'tuesday') {
+    console.log('Arkadas bulusmasi');
+} else if (day === 'wednesday' || day==='thursday') {
+    console.log('Spora gidis');
+} else if ( day === 'friday') {
+    console.log('Dizi izleme');
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log('Hafta sonu');
+} else {
+    console.log('Gecerli gün girilmedi');
+}
+
+
+
+
+const age = 20;
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink)
+
+
+// ? = if       : = else
+
+function logger () {
+    console.log('My name is Can')
+    console.log('My name is Can')
+    console.log('My name is Can')
+    console.log('My name is Can')
+    console.log('My name is Can')
+    console.log('My name is Can')
+    console.log('My name is Can')
+    console.log('My name is Can')
+
+}
+
+logger();
+
+function meyveSuyu(elma, portakal) {
+    const juice = `Meyve suyu ${elma} elma ve ${portakal} portakal ile yapilir.`
+    return juice;
+}
+
+const elmaSuyu = meyveSuyu (4,2);
+console.log(elmaSuyu)
+
+*/
+
+// Function declaration
+
+//const age1 = calcAge1(1991);
+
+//function calcAge1(birthYear) {
+//    return  2037 - birthYear;
+
+//}
+
+// Function experession
+
+//const calcAge2 = function (birthYear) {
+//    return 2037 - birthYear;
+//}
+
+//const age2 = calcAge2(2000);
+
+
+//console.log(age1, age2);
+
+
+
+
+
+
+
+
+
+
+/* let month = 'august';
+
+if (month === 'januar') {
+    console.log(`Ali's birthday party is this month.`);
+} else if (month === 'februar') {
+    console.log(`Ece's birthday party is this month.`);
+} else if (month === 'märz' || month === 'april' ) {
+    console.log(`Veli's birthday party and Veli's wedding is this month.`);
+} else if (month === 'mai') {
+    console.log(`Pelin's birthday party is this month.`);
+} else if (month === 'juni') {
+    console.log(`Burak's birthday party is this month.`);
+} else if (month === 'juli') {
+    console.log(`Arzu's birthday party is this month.`);
+} else if (month === 'august') {
+    console.log(`Mert's birthday party is this month.`);
+} else if (month === 'september') {
+    console.log(`Sarp's birthday party is this month.`);
+} else if (month === 'oktober') {
+    console.log(`Dilan's birthday party is this month.`);
+} else if (month === 'november') {
+    console.log(`Kerim's birthday party is this month.`);
+} else if (month === 'dezember') {
+    console.log(`Ozan's birthday party is this month.`);
+} else {
+    console.log(`The current month was not entered.`)
+}
+
+*/
+
+
+function pilavOlcusu(pirinç, su) {
+    const pilav = (`Pilav ${pirinç} bardak pirinç ve ${su} bardak su ile hazirlanir.`)
+    return pilav
+}
+
+const pilavTarifi = pilavOlcusu(2,3)
+console.log(pilavTarifi)
+
+
+
+
+
+function canMeans(meanOne, meanTwo) {
+    const can = (`Can is my whole ${meanOne} and my whole ${meanTwo}.`)
+    return can
+}
+
+const canMeansToMe = canMeans('love', 'luck')
+console.log(canMeansToMe)
+
+
+
+
+function whatToBe(job, person) {
+    const life = (`I want to be a successful ${job} and a ${person}.`)
+    return life
+}
+
+const whatWantToBe = whatToBe('software developer', 'happy person')
+console.log(whatWantToBe)
+
+
+
+
+
+
+function sätzeWörter(wörterEin, wörterZwei) {
+    const sätze = (`Du bist mein Sonnenschein an regnerischen Tagen.`)
+    return sätze
+}
+
+const WörterMeans = sätzeWörter('Sonnenschein', 'regnerischen Tagen')
+console.log(WörterMeans)
+
+
+const age = 10;
+
+const licence = age >= 18 ? 'can get a drivers license.' : 'cannot get a drivers license.';
+console.log(licence)
+
+
+
